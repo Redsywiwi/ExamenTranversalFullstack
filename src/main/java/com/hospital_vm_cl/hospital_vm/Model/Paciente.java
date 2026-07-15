@@ -28,7 +28,6 @@ public class Paciente extends Persona{
     
 
 
-
     public Paciente(Integer id, String run, String nombre, String apellidos, LocalDate fecha_nacimiento, String correo, Integer telefono, String direccion, LocalDate fecha_registro) {
         super(id, run, nombre, apellidos, fecha_nacimiento, correo, telefono, direccion);
         this.fecha_registro = fecha_registro;
