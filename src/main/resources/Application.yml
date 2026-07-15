@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/flyway-db
+    username: root
+    password: root
+  flyway:
+    enabled: true
+    repair: true
